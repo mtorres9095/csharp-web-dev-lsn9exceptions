@@ -27,7 +27,7 @@ namespace csharp_web_dev_lsn9exceptions
 
             if (value == null || value == "")
             {
-                throw new ArgumentOutOfRangeException("No Points for no answer");
+                throw new ArgumentOutOfRangeException("Student did not send a File");
             }
             else if (value.EndsWith(".cs"))
             {
